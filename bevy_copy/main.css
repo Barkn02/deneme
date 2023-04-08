@@ -32,7 +32,7 @@
 
   .navbar ul{
     float:right;
-    margin-right: 300px;
+    margin-right: 100px;
   }
 
   .navbar ul li{
@@ -63,16 +63,17 @@
     margin-top: 10px;
     font-size: 25px;
     font-family: sans-serif;
-    color:white;
+    color:#ffffff;
   }
   .button{
+    text-align: center;
     color: #ececec;
     text-decoration: none;
   }
   .navbar .s button{
     color: white;
     margin-top: 15px;
-    margin-left: 715px;
+    text-align:center;
     display: inline-flex;
     background-color: #799bbb;
     border: 3px solid #576f86;
