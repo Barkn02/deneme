@@ -92,3 +92,112 @@
   margin-left: 8px;
   height: 35px;
 }
+
+.container .main img{
+  display: block;
+  margin: 32px auto;
+  width: 100%;
+  max-width: 35rem;
+}
+
+.container .main p{
+    color:white;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.container .main .bt{
+  margin-top: 24px;
+  color: #ececec;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #799bbb;
+  border: 3px solid #576f86;
+  padding: 6px 8px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: transform 100ms;
+  font-family: "Fira Sans", sans-serif;
+  display: block;
+  margin: 32px auto;
+  width: 100%;
+  max-width: 7.1rem;
+}
+
+.yaz{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.con{
+  width: 900px;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text{
+  float:left;
+  padding:0 10px 10px 0;
+  width: 100%;
+  max-width: 535px;
+  border-width: 1.8rem;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.tit{
+  color:white;
+  font-size: 2.1rem;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.textd{
+  font-size: 1.3rem;
+  font-family: "Fira Sans", sans-serif;
+  color:white;
+}
+
+.sb{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0px;
+  padding-left: 2rem;
+  font-size: 1.22rem;
+}
+
+.yazimg{
+  float:right;
+  float: left;
+  width: 100%;
+  max-width: 535px;
+  border-width: 1.8rem;
+  border-style: solid;
+  border-color: transparent;
+  height: 24rem;
+  background-color: #2b2c2f;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-clip: padding-box;
+}
+
+.yazim{
+  width: 100%;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+
