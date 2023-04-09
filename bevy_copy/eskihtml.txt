@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Deneme</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">LOGO</a>
+            </div>
+            
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Hizmetler</a></li>
+            </ul>
+            <div class="s">
+                <h1 class="logos">LOGO</h1>
+                <p>lorem ipsum doler sit amet lorem ipsum doler sit amet</p>
+                <center><a href="google.com" class="button"><button>GET STARTED</button></a></center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+navbarı welcomedan ayırmak lazımdı bence
