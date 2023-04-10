@@ -1,11 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,300&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
 }
 
+html * {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+html {
+  color: #ececec;
+  color-scheme: dark;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.875rem;
+  background-color: #1e1e22;
+  scroll-padding-top: var(--scroll-padding-top);
+}
+
+div {
+  display: block;
+}
+
 .container {
-  background-color: #2c2c2d;
+  background-color: #1e1e22;
   height: 100vh;
 }
 
@@ -24,6 +44,7 @@
   align-items: center;
   height: 100%;
 }
+
 .navbar_left img {
   height: 40px;
 }
@@ -36,19 +57,19 @@
   color: #797979;
 }
 
-.navbar_right{
+.navbar_right {
   height: 100%;
   display: flex;
   align-items: center;
 }
 
-.navbar_right ul li{
+.navbar_right ul li {
   list-style: none;
   display: inline-block;
   margin: 0px 8px;
 }
 
-.navbar_right ul li a{
+.navbar_right ul li a {
   font-family: "Fira Sans", sans-serif;
   color: #ececec;
   text-decoration: none;
@@ -56,7 +77,7 @@
   font-weight: 500;
 }
 
-.navbar_right .navbar_right_inf{
+.navbar_right .navbar_right_inf {
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -65,7 +86,7 @@
   margin-left: 10px;
 }
 
-.navbar_right .donate_btn{
+.navbar_right .donate_btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,54 +102,65 @@
   font-weight: 550;
   transition: 0.2s;
 }
-.donate_btn:active{
+
+.donate_btn:active {
   transform: translateY(2px);
 }
-.navbar_right .navbar_right_inf .donate_btn img{
+
+.navbar_right .navbar_right_inf .donate_btn img {
   height: 19px;
   margin: 1px;
 }
-.navbar_right .navbar_right_inf img{
+
+.navbar_right .navbar_right_inf img {
   margin-left: 8px;
   height: 35px;
 }
 
-.container .main img{
+.container .main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.container .main img {
   display: block;
   margin: 32px auto;
   width: 100%;
   max-width: 40rem;
 }
 
-.container .main p{
-    color:white;
-    text-align: center;
-    margin-top: 1.5rem;
-    font-size: 2rem;
-    font-weight: 500;
-    font-family: "Fira Sans", sans-serif;
+.container .main p {
+  color: white;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 450;
+  font-family: "Fira Sans", sans-serif;
 }
 
-.container .main .bt{
+.container .main .bt {
   margin-top: 25px;
   color: #ececec;
   text-decoration: none;
+  text-align: center;
   display: inline-block;
   background-color: #799bbb;
   border: 3px solid #576f86;
-  padding: 7px 18px;
+  padding: 5px 35px;
   border-radius: 10px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   transition: transform 100ms;
   font-family: "Fira Sans", sans-serif;
-  display: block;
-  margin: 32px auto;
-  width: 100%;
+  width: 15rem;
   max-width: 10rem;
 }
-
-.yaz{
+.container .main .bt:active{
+  transform: translateY(2px);
+  transition: 0.2s;
+}
+.features {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -137,18 +169,18 @@
   margin-right: auto;
 }
 
-.con{
-  width: 900px;
-  margin:auto;
+.features_box {
+  width: 90%;
+  margin: auto;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.text{
-
-  float:left;
-  padding:0 10px 10px 0;
+.text {
+  float: left;
+  padding: 0 10px 10px 0;
   width: 100%;
   max-width: 600px;
   border-width: 1.8rem;
@@ -156,21 +188,20 @@
   border-color: transparent;
 }
 
-.tit{
-  color:white;
+.tit {
+  color: white;
   font-size: 3rem;
   margin-top: 0;
   margin-bottom: 0.3rem;
-
 }
 
-.textd{
+.textd {
   font-size: 2rem;
   font-family: "Fira Sans", sans-serif;
-  color:white;
+  color: white;
 }
 
-.sb{
+.sb {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   margin-left: 0px;
@@ -178,7 +209,7 @@
   font-size: 0.7em;
 }
 
-.yazimg{
+.features_img {
   width: 100%;
   max-width: 535px;
   border-width: 1.8rem;
@@ -194,29 +225,10 @@
   background-clip: padding-box;
 }
 
-html * {
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
-  outline: none;
-}
-
-.yazim{
+.features_img_fill {
   float: left;
   width: 100%;
   max-width: 90%;
   max-height: 90%;
 }
 
-div{
-  display: block;
-}
-
-
-html {
-  color: #ececec;
-  color-scheme: dark;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: .875rem;
-  background-color: #1e1e22;
-  scroll-padding-top: var(--scroll-padding-top);
-}
