@@ -97,26 +97,26 @@
   display: block;
   margin: 32px auto;
   width: 100%;
-  max-width: 35rem;
+  max-width: 40rem;
 }
 
 .container .main p{
     color:white;
     text-align: center;
     margin-top: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     font-family: "Fira Sans", sans-serif;
 }
 
 .container .main .bt{
-  margin-top: 24px;
+  margin-top: 25px;
   color: #ececec;
   text-decoration: none;
   display: inline-block;
   background-color: #799bbb;
   border: 3px solid #576f86;
-  padding: 6px 8px;
+  padding: 7px 18px;
   border-radius: 10px;
   font-size: 1.2rem;
   font-weight: 500;
@@ -125,11 +125,11 @@
   display: block;
   margin: 32px auto;
   width: 100%;
-  max-width: 7.1rem;
+  max-width: 10rem;
 }
 
 .yaz{
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -146,10 +146,11 @@
 }
 
 .text{
+
   float:left;
   padding:0 10px 10px 0;
   width: 100%;
-  max-width: 535px;
+  max-width: 600px;
   border-width: 1.8rem;
   border-style: solid;
   border-color: transparent;
@@ -157,27 +158,27 @@
 
 .tit{
   color:white;
-  font-size: 2.1rem;
+  font-size: 3rem;
   margin-top: 0;
   margin-bottom: 0.3rem;
+
 }
 
 .textd{
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-family: "Fira Sans", sans-serif;
   color:white;
 }
 
 .sb{
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
   margin-left: 0px;
   padding-left: 2rem;
-  font-size: 1.22rem;
+  font-size: 0.7em;
 }
 
 .yazimg{
-  float:right;
   width: 100%;
   max-width: 535px;
   border-width: 1.8rem;
@@ -193,10 +194,29 @@
   background-clip: padding-box;
 }
 
+html * {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
 .yazim{
+  float: left;
   width: 100%;
   max-width: 90%;
   max-height: 90%;
 }
 
+div{
+  display: block;
+}
 
+
+html {
+  color: #ececec;
+  color-scheme: dark;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  background-color: #1e1e22;
+  scroll-padding-top: var(--scroll-padding-top);
+}
